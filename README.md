@@ -29,6 +29,7 @@ Repository ini berisi analisis lengkap produksi padi di Jawa Timur menggunakan d
 |6| `5_complete_dashboard.png` | 9 subplot prediksi produksi padi |
 |7| `Rice_Analysis_Results.xlsx` | Output excel berisi hasil analisis data |
 |8| `6_2026_climate_forecast_comparison.png` | Perbandingan iklim 2026 vs historis|
+|9| `Rice_Analysis_Results` | Hasil perhitungan analisis |
 
 ## Requirements
 - Python 3.8+
