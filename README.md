@@ -192,7 +192,7 @@ Berdasarkan **Update BMKG 11 Juni 2026**:
 ![2026 Forecast](image/3_production_forecast_2026_bmkg_update.png)
 *Gambar 4: Prediksi produksi 2026 dengan 3 skenario El Nino*
 
-###  Ringkasan Dashboard Lengkap
+##  Ringkasan Dashboard Lengkap
 
 Dashboard menampilkan 9 subplot:
 1. Feature Importance - Soil Moisture paling berpengaruh
