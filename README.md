@@ -56,8 +56,21 @@ Hasil analisis prodksi pada Jawa Timur periode 2018 - 2025 menunjukkan faktor ik
 
 Berdasarkan update BMKG 11 Juni 2026 el Nino Moderat (100% peluang) diprediksi terjadi pada semester II 2026 dan berdasarkan hasil analisis Stress Tolerance Index pada produksi padi di Jawa Timur ini akan berotensi menyebabkan penurunan produksi padi ke kisaran 9,6 - 9,8 juta ton.
 
+## Korelasi Iklim dan Produksi
 
- 
+#### Hasil Korelasi Pearson (2018-2025)
 
+| Variabel | Korelasi | Kekuatan | Arah | Interpretasi |
+|----------|----------|----------|------|--------------|
+| **Soil Moisture** | **+0.547** | Sedang | Positif | ✅ Paling berpengaruh |
+| Vegetation NDVI | +0.253 | Lemah | Positif | ✅ Berpengaruh kecil |
+| Temperature | -0.206 | Lemah | Negatif | ❌ Sedikit menghambat |
+| Precipitation | +0.053 | Sangat Lemah | Positif | ⚪ Hampir tidak berpengaruh |
+
+> **Kesimpulan:** Kelembaban tanah adalah faktor terpenting untuk produksi padi di Jawa Timur. Curah hujan tahunan tidak berkorelasi kuat karena **distribusi hujan** lebih penting daripada total tahunan.
+
+#### Visualisasi Korelasi
+![Correlation Analysis](images/1_correlation_analysis.png)
+*Gambar 1: Heatmap dan bar chart korelasi variabel iklim vs produksi padi*
 
 
