@@ -70,7 +70,52 @@ Berdasarkan update BMKG 11 Juni 2026 el Nino Moderat (100% peluang) diprediksi t
 > **Kesimpulan:** Kelembaban tanah adalah faktor terpenting untuk produksi padi di Jawa Timur. Curah hujan tahunan tidak berkorelasi kuat karena **distribusi hujan** lebih penting daripada total tahunan.
 
 #### Visualisasi Korelasi
-![Correlation Analysis](images/1_correlation_analysis.png)
+![Correlation Analysis](image/1_correlation_analysis.png)
 *Gambar 1: Heatmap dan bar chart korelasi variabel iklim vs produksi padi*
+
+## Tren Produksi Padi (2018 - 2025)
+
+#### Data Produksi Tahunan
+
+| Tahun | Produksi (juta ton) | Fenomena | Perubahan |
+|-------|---------------------|----------|-----------|
+| 2018 | 10.20 | Normal | - |
+| 2019 | 9.58 | El Nino | -6.1% |
+| 2020 | 9.94 | Normal | +3.8% |
+| 2021 | 9.79 | La Niña | -1.5% |
+| 2022 | 9.53 | La Niña | -2.7% |
+| 2023 | 9.71 | Normal | +1.9% |
+| **2024** | **9.27** | El Nino | **-4.5%**  |
+| **2025** | **10.53** | Normal | **+13.6%**  |
+
+> **Kesimpulan:** 
+> - **2024** terjadi El Nino yang menyebabkan produksi terendah → 9.27 juta ton
+> - **2025** masa pemulihan dari El Nino dan hasil produsk tertinggi → 10.53 juta ton
+> - **El Nino** menurunkan produksi hingga **-4.5%**
+
+## Pola Musiman Produksi Padi
+
+#### Rata-rata Produksi Bulanan (2020-2024)
+
+| Bulan | Produksi (juta ton) | Musim |
+|-------|---------------------|-------|
+| Januari | 0.28 | Rendah |
+| Februari | 0.50 | Rendah |
+| **Maret** | **1.70** | **Puncak**  |
+| **April** | **1.60** | **Puncak**  |
+| Mei | 0.80 | Menengah |
+| Juni | 0.75 | Menengah |
+| Juli | 1.00 | Menengah |
+| Agustus | 0.80 | Menengah |
+| September | 0.55 | Rendah |
+| Oktober | 0.55 | Rendah |
+| November | 0.55 | Rendah |
+| Desember | 0.35 | Rendah |
+
+> **Kesimpulan:**
+> - **Puncak panen:** Maret-April (musim hujan)
+> - **Produksi terendah:** Januari (akhir musim kemarau)
+> - Pola ini konsisten setiap tahun
+
 
 
