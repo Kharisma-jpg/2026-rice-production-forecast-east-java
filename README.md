@@ -49,4 +49,15 @@ Ilmi, Kharisma C. 2026. East Java Rice Production analysis 2018 - 2025 and El Ni
 ## Last update
 15 Juni 2026
 
+---
+
+## Executive Summary
+Hasil analisis prodksi pada Jawa Timur periode 2018 - 2025 menunjukkan faktor iklim yang paling berpengaruh terhadap peroduksi pada dengan nilai korelasi +0.547 (sedang-kuat). Produksi tertinggi tercatat pada tahun 2025 setahun setelah el Nino 2024 dengan total 20.53 juta ton, sementara hasil produksi terendah pada tahun 2024 dengan nilai total produsksi 9.24 juta ton akibat dampak dari El Nino yang terjadi di tahun tersebut.
+
+Berdasarkan update BMKG 11 Juni 2026 el Nino Moderat (100% peluang) diprediksi terjadi pada semester II 2026 dan berdasarkan hasil analisis Stress Tolerance Index pada produksi padi di Jawa Timur ini akan berotensi menyebabkan penurunan produksi padi ke kisaran 9,6 - 9,8 juta ton.
+
+
+ 
+
+
 
