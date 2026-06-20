@@ -1,4 +1,3 @@
-# 2026-rice-production-forecast-east-java
 # East Java Rice PRoduction analysis (2018-2025)) & El Nino Impact Forecast 2026
 
 ## Deskripsi
