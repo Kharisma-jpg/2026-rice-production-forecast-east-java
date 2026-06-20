@@ -1,5 +1,8 @@
 # East Java Rice Production analysis (2018-2025)) & El Nino Impact Forecast 2026
 
+![Correlation Analysis](image/Super-El-Nino-forecast.png)
+*Gambar 1: Perkiraan suhu permukaan laut El Nino Agustus-October 2026 (Sumber : Severe Weather Europe*
+
 ## Deskripsi
 Repository ini berisi analisis lengkap produksi padi di Jawa Timur menggunakan data klimatologi dan produksi padi dari tahun 2018 hingga 2025, serta prediksi dampak El Nino terhadap produksi padi tahun 2026 berdasarkan update BMKG 11 Juni 2026.
 
@@ -18,17 +21,19 @@ Repository ini berisi analisis lengkap produksi padi di Jawa Timur menggunakan d
 - **K-Means Clustering**: Pengelompokan kabupaten/kota
 
 ## Output Files
-| No | Nama File | Deskripsi |
-|----|------|------------|
-|1| `1_correlation_analysis.png` | Heatmap korelasi + bar chart |
-|2| `2_production_forecast_2026_bmkg_update.png` | Prediksi 3 skenario El Nino |
-|3| `3_analisis_ketahanan_sti.png` | Dashboard STI (4 subplot) |
-|4| `peringkat_ketahanan_sti.csv` | Peringkat ketahanan STI |
-|5| `4_seasonal_patterns.png` | Pola produksi bulanan | 
-|6| `5_complete_dashboard.png` | 9 subplot prediksi produksi padi |
-|7| `Rice_Analysis_Results.xlsx` | Output excel berisi hasil analisis data |
-|8| `6_2026_climate_forecast_comparison.png` | Perbandingan iklim 2026 vs historis|
-|9| `Rice_Analysis_Results` | Hasil perhitungan analisis |
+| No | Nama File | Jenis | Deskripsi |
+|----|-----------|-------|-----------|
+| 1 | `1_correlation_analysis.png` | Grafik | Heatmap korelasi iklim vs produksi + bar chart ranking |
+| 2 | `2_seasonal_patterns.png` | Grafik | Pattern produksi bulanan |
+| 3 | `3_production_forecast_2026_bmkg_update.png` | Grafik | Perbandingan prediksi iklim 2026 vs historis |
+| 4 | `4_2026_climate_forecast_update.png` | Grafik | Forecast klimatologi berdasarkan prediksi BMKG |
+| 5 | `5_analisis_ketahanan_sti.png` | Grafik | Ranking ketahanan per kota/kabupaten berdasarkan STI |
+| 6 | `6_complete_dashboard.png` | Grafik | Dashboard komprehensif (9 subplot) |
+| 7 | `correlation_results` | Data | File CSV perhitungan korelasi iklim dan produksi padi |
+| 8 | `monthly_production_patterns` | Data | File CSV pola hasil produksi padi per bulan |
+| 9 | `peringkat_ketahanan_sti` | Data | File CSV peringkat ketahanan sti |
+| 10 | `prediksi_produksi_2026` | Data | File CSV perhitungan prediksi produksi 2026 |
+| 11 | `Rice_Analysis_Results` | Data | File Excel (5 sheet: data, korelasi, resilience, feature importance, prediksi) 2026 |
 
 ## Requirements
 - Python 3.8+
@@ -71,7 +76,7 @@ Berdasarkan update BMKG 11 Juni 2026 el Nino Moderat (100% peluang) diprediksi t
 
 #### Visualisasi Korelasi
 ![Correlation Analysis](image/1_correlation_analysis.png)
-*Gambar 1: Heatmap dan bar chart korelasi variabel iklim vs produksi padi*
+*Gambar 2: Heatmap dan bar chart korelasi variabel iklim vs produksi padi*
 
 ## Tren Produksi Padi (2018 - 2025)
 
@@ -119,7 +124,7 @@ Berdasarkan update BMKG 11 Juni 2026 el Nino Moderat (100% peluang) diprediksi t
 
 #### Visualisasi Pola Musiman
 ![Seasonal Patterns](image/2_seasonal_patterns.png)
-*Gambar 2: Pola produksi bulanan rata-rata 2020-2024*
+*Gambar 3: Pola produksi bulanan rata-rata 2020-2024*
 
 ##  Ketahanan Kabupaten/Kota terhadap Kekeringan (STI)
 
@@ -158,7 +163,7 @@ Metode **Stress Tolerance Index (STI)** - Fernandez (1992) mengukur kemampuan da
 
 #### Visualisasi Ketahanan
 ![STI Resilience](image/5_analisis_ketahanan_sti.png)
-*Gambar 3: Dashboard analisis ketahanan kekeringan (metode STI)*
+*Gambar 4: Dashboard analisis ketahanan kekeringan (metode STI)*
 
 ## Prediksi Produksi Padi 2026
 
@@ -190,7 +195,7 @@ Berdasarkan **Update BMKG 11 Juni 2026**:
 
 #### Visualisasi Prediksi
 ![2026 Forecast](image/3_production_forecast_2026_bmkg_update.png)
-*Gambar 4: Prediksi produksi 2026 dengan 3 skenario El Nino*
+*Gambar 5: Prediksi produksi 2026 dengan 3 skenario El Nino*
 
 ##  Ringkasan Dashboard Lengkap
 
@@ -206,7 +211,7 @@ Dashboard menampilkan 9 subplot:
 9. Summary Statistics - Statistik ringkasan
 
 ![Complete Dashboard](image/6_complete_dashboard.png)
-*Gambar 5: Dashboard komprehensif (9 subplot)*
+*Gambar 6: Dashboard komprehensif (9 subplot)*
 
 ## Kesimpulan
 
