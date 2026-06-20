@@ -1,4 +1,4 @@
-# East Java Rice PRoduction analysis (2018-2025)) & El Nino Impact Forecast 2026
+# East Java Rice Production analysis (2018-2025)) & El Nino Impact Forecast 2026
 
 ## Deskripsi
 Repository ini berisi analisis lengkap produksi padi di Jawa Timur menggunakan data klimatologi dan produksi padi dari tahun 2018 hingga 2025, serta prediksi dampak El Nino terhadap produksi padi tahun 2026 berdasarkan update BMKG 11 Juni 2026.
@@ -13,7 +13,7 @@ Repository ini berisi analisis lengkap produksi padi di Jawa Timur menggunakan d
 ## Methods
 - **Pearson Correlation**: Hubungan iklim vs produksi
 - **Ensemble Machine Learning**: Random Forest, Gradient Boosting, Ridge (prediksi 2026)
-- **Stress Tolreance Index (STI)**: Ketahanan kekeringan kabupaten/kota (Fernandex, 1992)
+- **Stress Tolerance Index (STI)**: Ketahanan kekeringan kabupaten/kota (Fernandex, 1992)
 - **Principal Component Analysis (PCA)**: Anilisis ketahanan alternatif
 - **K-Means Clustering**: Pengelompokan kabupaten/kota
 
