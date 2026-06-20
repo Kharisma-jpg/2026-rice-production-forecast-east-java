@@ -117,5 +117,102 @@ Berdasarkan update BMKG 11 Juni 2026 el Nino Moderat (100% peluang) diprediksi t
 > - **Produksi terendah:** Januari (akhir musim kemarau)
 > - Pola ini konsisten setiap tahun
 
+#### Visualisasi Pola Musiman
+![Seasonal Patterns](image/2_seasonal_patterns.png)
+*Gambar 2: Pola produksi bulanan rata-rata 2020-2024*
 
+##  Ketahanan Kabupaten/Kota terhadap Kekeringan (STI)
+
+Metode **Stress Tolerance Index (STI)** - Fernandez (1992) mengukur kemampuan daerah mempertahankan produksi saat kekeringan.
+
+#### Top 10 Kabupaten/Kota Paling Tangguh
+
+| Peringkat | Kabupaten/Kota | STI | Kategori |
+|-----------|----------------|-----|----------|
+| 1 | Lamongan | 0.670 | Sedang |
+| 2 | Pasuruan | 0.671 | Sedang |
+| 3 | Sidoarjo | 0.691 | Sedang |
+| 4 | Kota Surabaya | 0.816 | Tahan |
+| 5 | Lumajang | 0.589 | Sedang |
+| 6 | Tuban | 0.534 | Sedang |
+| 7 | Banyuwangi | 0.574 | Sedang |
+| 8 | Kota Malang | 0.504 | Sedang |
+| 9 | Gresik | 0.256 | Rentan |
+| 10 | Madiun | 0.226 | Rentan |
+
+#### Bottom 10 Kabupaten/Kota Paling Rentan
+
+| Peringkat | Kabupaten/Kota | STI | Kategori |
+|-----------|----------------|-----|----------|
+| **38** | **Kota Kediri** | **0.000** | **Sangat Rentan** |
+| 37 | Sidoarjo | 12.85 | Sangat Rentan |
+| 36 | Pasuruan | 13.64 | Sangat Rentan |
+| 35 | Pasuruan (Kab) | 14.47 | Rentan |
+| 34 | Malang | 16.46 | Rentan |
+| 33 | Mojokerto | 17.47 | Rentan |
+| 32 | Bondowoso | 18.40 | Rentan |
+| 31 | Madiun | 18.68 | Rentan |
+| 30 | Ngawi | 19.03 | Rentan |
+| 29 | Probolinggo | 22.16 | Rentan |
+
+
+#### Visualisasi Ketahanan
+![STI Resilience](image/5_analisis_ketahanan_sti.png)
+*Gambar 3: Dashboard analisis ketahanan kekeringan (metode STI)*
+
+## Prediksi Produksi Padi 2026
+
+Berdasarkan **Update BMKG 11 Juni 2026**:
+- ✅ El Nino Moderat = **100%** peluang
+- ✅ El Nino Kuat = **86%** peluang
+- ✅ IOD Positif mulai **Agustus 2026**
+- ✅ HTH 42 hari di **Kab. Probolinggo**
+- ✅ Prediksi hujan Jatim **<50 mm/bulan** (Juli-November)
+
+#### Hasil Prediksi 3 Skenario
+
+| Skenario | Kondisi | Prediksi Produksi | Perubahan vs 2025 |
+|----------|---------|-------------------|-------------------|
+| **Baseline** | El Nino Moderat | **9.4 - 9.8 juta ton** | -7% s.d -11% |
+| **Pesimistis** | El Nino Kuat | **9.0 - 9.4 juta ton** | -11% s.d -15% |
+| **Ekstrem** | El Nino + IOD Positif | **8.6 - 9.0 juta ton** | -15% s.d -18% |
+
+#### Perbandingan dengan Tahun Sebelumnya
+
+| Tahun | Produksi (juta ton) | Fenomena | Keterangan |
+|-------|---------------------|----------|------------|
+| 2024 | 9.27 | El Nino | Terendah (baseline) |
+| 2025 | 10.53 | Pemulihan | Tertinggi |
+| **2026** | **8.6 - 9.8** | **El Nino** | **Lebih buruk dari 2024**  |
+
+>  Kesimpulan:
+> Produksi padi 2026 diprediksi lebih rendah dari 2024 dan berpotensi menjadi produksi terendah dalam 9 tahun terakhir.
+
+#### Visualisasi Prediksi
+![2026 Forecast](image/3_production_forecast_2026_bmkg_update.png)
+*Gambar 4: Prediksi produksi 2026 dengan 3 skenario El Nino*
+
+###  Ringkasan Dashboard Lengkap
+
+Dashboard menampilkan 9 subplot:
+1. Feature Importance - Soil Moisture paling berpengaruh
+2. Production Trend - Tren 2018-2025
+3. Top & Bottom Correlations - Korelasi terkuat dan terlemah
+4. Soil Moisture Impact - Hubungan kelembaban vs produksi
+5. Temperature Impact - Hubungan suhu vs produksi (heat stress threshold 29°C)
+6. 2026 Forecast - 3 skenario El Nino
+7. YoY Change - Perubahan tahun ke tahun
+8. Daerah Paling Tahan Kekeringan - Top 5 STI
+9. Summary Statistics - Statistik ringkasan
+
+![Complete Dashboard](image/6_complete_dashboard.png)
+*Gambar 5: Dashboard komprehensif (9 subplot)*
+
+## Kesimpulan
+
+1. **Kelembaban tanah** adalah prediktor terkuat produksi padi (korelasi +0.547)
+2. **2024** adalah tahun terburuk (9.27 juta ton) akibat El Nino
+3. **2026** diprediksi lebih buruk dari 2024 (8.6-9.8 juta ton)
+4. **Lamongan** paling tangguh, **Kota Kediri** paling rentan
+5. **Puncak panen** terjadi pada Maret-April
 
